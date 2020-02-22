@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txt_name1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+
+        android:layout_marginBottom="442dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Enter crush name"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/txt_name2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+
+        android:layout_marginBottom="378dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="263dp"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="200dp"
+        android:text="Click Cal"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <Button
+        android:id="@+id/btn_cal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="104dp"
+
+        android:background="@drawable/stylebutton"
+        android:text="Cal"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="241dp"
+        android:layout_height="231dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="500dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
